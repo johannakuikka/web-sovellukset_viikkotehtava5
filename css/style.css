@@ -1,0 +1,21 @@
+body {
+    background-color: black; /* Asetetaan sivun taustaväri mustaksi */
+    margin: 0; /* Poistetaan body-elementin oletusmarginaali */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Vie 100% näytön korkeudesta */
+  }
+  
+  #container {
+    text-align: center; /* Asetetaan noppa sisällön keskelle vaakasuunnassa */
+  }
+  
+  #dice {
+    display: inline-block;
+  }
+  
+  #dice img {
+    max-width: 100%;
+    height: auto; /* Säilytetään kuvan alkuperäinen korkeus-leveys-suhde */
+  }
